@@ -268,7 +268,7 @@ flowchart LR
     I --> J[Browser dan HTTP smoke check]
 ```
 
-Repository ini tidak membawa token Vercel di GitHub Actions. Deployment Git memakai koneksi Git provider pada project Vercel dan pengaturan root directory `site`. Jika koneksi Git belum tampil di dashboard, owner repository perlu membuka Vercel Project Settings → Git → Connect Git Repository, memilih `el-pablos/portofolio-salsa`, lalu memastikan Root Directory tetap `site`. Setelah terhubung, push ke `main` menjadi production deployment dan branch lain menjadi preview deployment sesuai aturan Vercel.
+Repository ini tidak membawa token Vercel di GitHub Actions. Project Vercel saat ini sudah terhubung ke GitHub repository `el-pablos/portofolio-salsa` melalui Git integration, dengan Root Directory `site` dan production branch `main`. Karena itu, setiap push ke `main` memicu production deployment dan branch lain dapat menjadi preview deployment sesuai aturan Vercel. Pengaturan link ini diverifikasi lewat Vercel API setelah koneksi CLI berhasil.
 
 Konfigurasi `site/vercel.json` menyediakan clean URL dan security headers. Karena root directory sudah diarahkan ke `site`, README dan tests tidak ikut disajikan sebagai website. Ini juga membuat payload lebih kecil dan menghindari kebocoran file audit lokal.
 
