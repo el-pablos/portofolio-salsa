@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff9f1">
+  <meta name="description" content="Portfolio interaktif Adinda Salsa Aryadi Putri — sosiologi, analisis data, riset sosial, pengalaman organisasi, dan visual storytelling.">
+  <meta property="og:title" content="Salsa's Field Notes — Interactive Portfolio">
+  <meta property="og:description" content="Jelajahi riset sosial, analisis data, pengalaman, sertifikat, dan karya visual Salsa.">
+  <meta name="source-assets" content="github.com/el-pablos/web-porto-salsa">
+  <title>Salsa's Field Notes — Interactive Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#map">Lewati ke peta portfolio</a>
+
+  <section class="screen screen-intro" id="intro" aria-labelledby="intro-title">
+    <div class="intro-wrap">
+      <span class="eyebrow">sociology · data · visual stories</span>
+      <h1 class="intro-title" id="intro-title"><span>SALSA'S</span><span>FIELD NOTES</span></h1>
+      <p class="intro-copy">Portfolio interaktif tentang cara Salsa membaca fenomena sosial, merapikan data, dan mengubah temuan menjadi cerita yang bisa dipahami.</p>
+      <div class="intro-actions">
+        <button class="btn" type="button" data-action="start">Mulai eksplorasi <span aria-hidden="true">↗</span></button>
+        <button class="btn secondary" type="button" data-action="quick-view">Quick view <span aria-hidden="true">→</span></button>
+      </div>
+      <div class="intro-note">atau tekan <span class="keycap">Enter</span></div>
+      <p class="intro-footer">Dibuat dengan rasa ingin tahu oleh <strong>Adinda Salsa Aryadi Putri</strong> · Jakarta Selatan</p>
+    </div>
+  </section>
+
+  <section class="world-shell" id="world" aria-label="Peta portfolio Salsa">
+    <header class="topbar">
+      <a class="brand" href="#map" aria-label="Kembali ke peta portfolio"><span class="brand-mark">S</span><span>Salsa's Field Notes</span></a>
+      <div class="top-actions">
+        <div class="hud" aria-label="Progress eksplorasi"><span>XP</span><div class="xp-track" aria-hidden="true"><div class="xp-fill" data-xp-fill></div></div><strong><span data-xp>0</span>/140</strong></div>
+        <button class="icon-btn" type="button" data-action="sound" aria-pressed="false" aria-label="Nyalakan suara">♪</button>
+        <button class="lang-btn" type="button" data-action="language" aria-label="Ganti bahasa">ID</button>
+      </div>
+    </header>
+
+    <main class="map-view" id="map">
+      <div class="map-intro">
+        <div><span class="micro-label">map 01 · open world</span><h1 data-map-title>Pilih jalurmu</h1></div>
+        <p data-map-copy>Tujuh titik di peta ini menyimpan cara kerja, pengalaman, dan jejak belajar Salsa. Buka semuanya untuk menyelesaikan field notes.</p>
+      </div>
+      <div class="map-stage" data-map-stage aria-label="Peta zona portfolio interaktif">
+        <div class="map-grid" aria-hidden="true"></div>
+        <svg class="map-paths" viewBox="0 0 1000 590" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M145 168 C260 80, 350 117, 450 130 S700 160, 830 184" />
+          <path d="M150 205 C120 310, 220 340, 300 406 S490 470, 545 463" />
+          <path d="M500 160 C555 250, 590 295, 680 390 S785 420, 850 440" />
+          <path d="M95 300 C300 265, 390 300, 535 250 S725 235, 850 250" />
+        </svg>
+        <button class="zone" type="button" data-zone="about" aria-label="Buka Character Sheet">
+          <span class="zone-number">01 <span class="check">✓</span></span><span class="zone-icon" aria-hidden="true">◉</span><strong>Character sheet</strong><small>siapa Salsa dan apa yang ia cari</small>
+        </button>
+        <button class="zone" type="button" data-zone="experience" aria-label="Buka Quest Log">
+          <span class="zone-number">02 <span class="check">✓</span></span><span class="zone-icon" aria-hidden="true">✎</span><strong>Quest log</strong><small>pengalaman yang membentuk cara kerja</small>
+        </button>
+        <button class="zone" type="button" data-zone="lab" aria-label="Buka Analysis Lab">
+          <span class="zone-number">03 <span class="check">✓</span></span><span class="zone-icon" aria-hidden="true">▥</span><strong>Analysis lab</strong><small>simulasi cleaning, bukan metrik produksi</small>
+        </button>
+        <button class="zone" type="button" data-zone="archive" aria-label="Buka Certificate Archive">
+          <span class="zone-number">04 <span class="check">✓</span></span><span class="zone-icon" aria-hidden="true">▤</span><strong>Archive</strong><small>24 sertifikat dan visual evidence</small>
+        </button>
+        <button class="zone" type="button" data-zone="projects" aria-label="Buka Project Inventory">
+          <span class="zone-number">05 <span class="check">✓</span></span><span class="zone-icon" aria-hidden="true">◆</span><strong>Project inventory</strong><small>riset, dashboard, visual, dan aksi</small>
+        </button>
+        <button class="zone" type="button" data-zone="skills" aria-label="Buka Skill Tree">
+          <span class="zone-number">06 <span class="check">✓</span></span><span class="zone-icon" aria-hidden="true">⌁</span><strong>Skill tree</strong><small>tools, metode, dan soft skills</small>
+        </button>
+        <button class="zone" type="button" data-zone="contact" aria-label="Buka Join Party">
+          <span class="zone-number">07 <span class="check">✓</span></span><span class="zone-icon" aria-hidden="true">↗</span><strong>Join the party</strong><small>ajak ngobrol atau bikin sesuatu</small>
+        </button>
+        <div class="map-legend"><b>HOW TO PLAY</b> Klik zona untuk membuka catatan. Setiap zona yang baru dibuka memberi <strong>+20 XP</strong>. Progress tersimpan di browser ini.</div>
+      </div>
+      <div class="quick-stats" aria-label="Ringkasan portfolio">
+        <div class="stat"><b data-stat="projects">9</b><span>proyek ditampilkan</span></div>
+        <div class="stat"><b data-stat="datasets">30</b><span>dataset dianalisis</span></div>
+        <div class="stat"><b data-stat="certificates">24</b><span>sertifikat tersimpan</span></div>
+        <div class="stat"><b data-stat="years">3</b><span>tahun belajar</span></div>
+      </div>
+    </main>
+  </section>
+
+  <div class="dialog-backdrop" data-dialog-backdrop hidden>
+    <section class="dialog-card" role="dialog" aria-modal="true" aria-labelledby="dialog-title" aria-describedby="dialog-description" tabindex="-1">
+      <button class="dialog-close" type="button" data-action="close" aria-label="Tutup catatan">×</button>
+      <div id="dialog-content"></div>
+    </section>
+  </div>
+
+  <div class="lightbox-backdrop" data-lightbox-backdrop hidden>
+    <section class="lightbox-card" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" tabindex="-1">
+      <button class="dialog-close" type="button" data-action="lightbox-close" aria-label="Tutup gambar">×</button>
+      <div class="lightbox-head"><span class="micro-label">source asset · visual evidence</span><h2 id="lightbox-title">Certificate</h2><p data-lightbox-meta></p></div>
+      <div class="lightbox-figure"><button class="lightbox-nav prev" type="button" data-lightbox-prev aria-label="Gambar sebelumnya">←</button><img data-lightbox-image alt=""><button class="lightbox-nav next" type="button" data-lightbox-next aria-label="Gambar berikutnya">→</button></div>
+      <p class="lightbox-counter" data-lightbox-counter></p>
+    </section>
+  </div>
+
+  <div class="toast" role="status" aria-live="polite" data-toast></div>
+  <noscript><main class="noscript-card"><h1>Adinda Salsa Aryadi Putri</h1><p>Portfolio ini membutuhkan JavaScript untuk peta interaktif. Konten bersumber dari portfolio Salsa: sosiologi, data analysis, riset sosial, pengalaman organisasi, sertifikat, dan desain.</p></main></noscript>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# Rahasia dan konfigurasi lokal
+.env
+.env.*
+!.env.example
+.vercel/
+
+# Source/audit lokal yang tidak dibutuhkan saat build publik
+/evidence/
+/source-salsa/
+/.cache/
+/tools/browser/node_modules/
+
+# Log dan hasil sementara
+*.log
+*.tmp
+.DS_Store

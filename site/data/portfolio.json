@@ -1,0 +1,578 @@
+{
+  "name": "Adinda Salsa Aryadi Putri",
+  "nickname": "Salsa",
+  "title": "Sociology Student | Data Analyst & Social Researcher",
+  "tagline": "Menganalisis fenomena sosial dengan pendekatan data-driven untuk perubahan yang bermakna",
+  "description": "Mahasiswi Ilmu Sosial dan Ilmu Politik, Program Studi Sosiologi yang memiliki kemampuan memahami dan menganalisis berbagai permasalahan secara kritis dan logis. Terbiasa mengartikulasikan ide secara jelas dan efektif, serta memiliki komitmen tinggi untuk terus belajar dan berkembang. Di luar bidang akademik, memiliki ketertarikan di dunia teknologi, khususnya dalam aspek pengujian dan kualitas sistem perangkat lunak. Dikenal sebagai pribadi yang komunikatif, bertanggung jawab, mampu bekerja dalam tim, teliti, dan disiplin dalam menyelesaikan tugas.",
+  "education": [
+    {
+      "institution": "Universitas Nasional (UNAS)",
+      "degree": "S1 Sosiologi",
+      "faculty": "FISIP - Fakultas Ilmu Sosial dan Ilmu Politik",
+      "year": "2022 - Sekarang",
+      "description": "Fokus pada penelitian sosial kuantitatif, analisis data sosial, dan pengembangan teknologi informasi"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Komisi Nasional Disabilitas (KND)",
+      "role": "Data Analyst Intern",
+      "period": "2024 - 2025",
+      "type": "internship",
+      "description": "Mengolah dan menganalisis data terkait isu disabilitas nasional untuk mendukung kebijakan publik",
+      "highlights": [
+        "Menganalisis dataset disabilitas nasional",
+        "Membuat visualisasi data untuk laporan tahunan",
+        "Mendukung penelitian kebijakan berbasis data"
+      ]
+    },
+    {
+      "company": "UNAS FEST",
+      "role": "Tabulator English Debate Competition",
+      "period": "2024",
+      "type": "organization",
+      "description": "Sebagai tabulator dalam kompetisi debat antar-mahasiswa, menyusun kriteria penilaian, mendesain sistem input skor di Google Sheets, dan menganalisis hasil penilaian dari 32 peserta. Melakukan uji kelayakan dan koordinasi teknis dengan tim IT untuk memastikan fitur scoring di website Caturnawa berjalan optimal.",
+      "highlights": [
+        "Mendesain sistem scoring di Google Sheets",
+        "Menganalisis hasil 32 peserta debat",
+        "Koordinasi teknis dengan tim IT website Caturnawa"
+      ],
+      "link": "https://caturnawa.unasfest.com/"
+    },
+    {
+      "company": "Youth Ranger Indonesia (YRI)",
+      "role": "Committee - Security Division",
+      "period": "2023",
+      "type": "organization",
+      "description": "Sebagai volunteer di Divisi Keamanan Youth Ranger Indonesia, berperan memastikan seluruh acara berjalan aman dan tertib. Menyusun aturan keamanan, memantau kondisi peserta, dan mengatur arus kerumunan untuk menghindari situasi yang tidak kondusif.",
+      "highlights": [
+        "Menyusun aturan keamanan acara",
+        "Memantau kondisi dan keselamatan peserta",
+        "Mengatur arus kerumunan dan logistik acara"
+      ]
+    },
+    {
+      "company": "Kelas Mengajar Nusantara Kemuning",
+      "role": "Deputy & Secretary Division II - ARKEDUNA",
+      "period": "2023",
+      "type": "community-service",
+      "description": "Dalam kegiatan Kelas Mengajar Nusantara Kemuning 'Asah Kreativitas dan Edukasi Anak Bangsa (ARKEDUNA)', berperan sebagai Wakil dan Sekretaris Divisi II. Menyiapkan proposal, surat permohonan program, dan laporan akhir sebagai dokumentasi kegiatan pengabdian masyarakat.",
+      "highlights": [
+        "Menyiapkan proposal dan surat permohonan program",
+        "Mengelola sistem pengarsipan dokumen",
+        "Koordinasi teknis dari perencanaan hingga evaluasi"
+      ]
+    },
+    {
+      "company": "Novo Club by Paragon Corp with Indorelawan.org",
+      "role": "Volunteer - Generasi Bebas Plastik",
+      "period": "2024",
+      "type": "volunteer",
+      "description": "Sebagai volunteer dalam program Generasi Bebas Plastik, berpartisipasi dalam serangkaian kegiatan untuk meningkatkan kesadaran tentang pentingnya pengurangan sampah plastik. Menyelesaikan berbagai misi seperti membawa tumbler sendiri, memilah sampah, membuat kerajinan dari barang bekas, dan donasi ke bank sampah.",
+      "highlights": [
+        "Menyelesaikan misi pengurangan sampah plastik",
+        "Menghadiri sesi edukasi dari NOVO CLUB",
+        "Membuat konten edukatif tentang pentingnya daur ulang"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Analisis Data Disabilitas Nasional",
+      "description": "Proyek analisis data terkait isu disabilitas di Indonesia untuk Komisi Nasional Disabilitas. Meliputi pengolahan data sensus, visualisasi tren, dan penyusunan rekomendasi kebijakan.",
+      "tech": [
+        "Python",
+        "Pandas",
+        "Power BI",
+        "Excel"
+      ],
+      "highlights": [
+        "Dataset nasional",
+        "Visualisasi interaktif",
+        "Laporan kebijakan"
+      ],
+      "category": "data-analysis"
+    },
+    {
+      "title": "Dashboard Visualisasi Data KND",
+      "description": "Membangun dashboard interaktif untuk monitoring dan visualisasi data disabilitas nasional. Dashboard menyajikan tren regional, demografi, dan progress program aksesibilitas.",
+      "tech": [
+        "Power BI",
+        "SQL",
+        "Python",
+        "DAX"
+      ],
+      "highlights": [
+        "Dashboard real-time",
+        "34 provinsi",
+        "Filter interaktif"
+      ],
+      "category": "data-analysis"
+    },
+    {
+      "title": "SILAF (Sistem Layanan Administrasi FISIP)",
+      "description": "Sistem layanan administrasi digital untuk FISIP yang mencakup Surat Permohonan Data dan Wawancara Penelitian, Pengajuan Surat Pengantar Magang, Formulir Permohonan Dokumen Akademik FISIP, Pendaftaran Seminar Proposal (Sempro) FISIP, dan Pendaftaran Sidang Skripsi/TA FISIP.",
+      "tech": [
+        "Google Form",
+        "Google Sheets",
+        "Web App"
+      ],
+      "highlights": [
+        "5 layanan administrasi",
+        "Digitalisasi proses",
+        "QR Code akses"
+      ],
+      "category": "tech",
+      "link": ""
+    },
+    {
+      "title": "Photostory: Nusantara",
+      "description": "Proyek photostory bertema 'Warisan Budaya Nusantara di Tengah Modernitas' untuk mata kuliah Sejarah Masyarakat Asia Tenggara. Tersedia dalam format flipbook digital dan website interaktif.",
+      "tech": [
+        "Canva",
+        "Heyzine Flipbooks",
+        "Web Design"
+      ],
+      "highlights": [
+        "Flipbook digital",
+        "Website interaktif",
+        "Narasi visual budaya"
+      ],
+      "category": "creative",
+      "link": "https://heyzine.com/flip-book/5b3f6b0784.html"
+    },
+    {
+      "title": "Sociology Visual: Social Interaction",
+      "description": "Proyek Photostory Social Contradictions yang mengeksplorasi kontradiksi sosial melalui pendekatan visual sosiologi. Dipresentasikan pada 17 November 2024.",
+      "tech": [
+        "Canva",
+        "Photography",
+        "Visual Design"
+      ],
+      "highlights": [
+        "Photostory visual",
+        "Analisis kontradiksi sosial",
+        "Presentasi akademik"
+      ],
+      "category": "creative",
+      "link": "https://www.canva.com/design/DAGWcqv5Feo/Hhc7OzWzXoNzdE73pHkptA/view"
+    },
+    {
+      "title": "Virtual Exhibition: Urban Life",
+      "description": "Pameran fotografi virtual bertema Urban Life yang menampilkan karya mahasiswa Kelas Sosiologi Visual, Universitas Nasional. Melalui pendekatan visual, proyek ini menggambarkan kehidupan dinamis dan kompleks masyarakat urban Jakarta.",
+      "tech": [
+        "Photography",
+        "Web Exhibition",
+        "Visual Sociology"
+      ],
+      "highlights": [
+        "Pameran virtual",
+        "Tema kehidupan urban Jakarta",
+        "Kolaborasi kelas"
+      ],
+      "category": "creative",
+      "link": "https://sosiologi.fisip.unas.ac.id/photography/"
+    },
+    {
+      "title": "Sociopreneurship: EcoCraft Creation",
+      "description": "Inisiatif kewirausahaan sosial yang bertujuan mengurangi sampah plastik melalui pengolahan limbah menjadi produk kreatif seperti gantungan kunci. Mengusung konsep sustainability dan community empowerment, dipasarkan secara online dengan model Direct-to-Consumer (D2C) melalui TikTok Shop, Shopee, dan Instagram.",
+      "tech": [
+        "Social Media Marketing",
+        "E-Commerce",
+        "Canva",
+        "Product Design"
+      ],
+      "highlights": [
+        "TikTok Shop & Shopee",
+        "D2C model",
+        "Sustainability focus",
+        "Instagram & Linktree"
+      ],
+      "category": "sociopreneurship"
+    },
+    {
+      "title": "Penelitian Sosial Kuantitatif UNAS",
+      "description": "Riset akademik menggunakan metode kuantitatif untuk menganalisis fenomena sosial. Pengumpulan data primer melalui survei dan analisis menggunakan tools statistik.",
+      "tech": [
+        "SPSS",
+        "Google Forms",
+        "Excel",
+        "Statistical Analysis"
+      ],
+      "highlights": [
+        "Metode kuantitatif",
+        "Survei 200+ responden",
+        "Paper akademik"
+      ],
+      "category": "research"
+    },
+    {
+      "title": "Analisis Sentimen Media Sosial",
+      "description": "Menganalisis sentimen publik terkait isu disabilitas dan inklusi sosial di media sosial menggunakan teknik NLP dan text mining untuk mendukung strategi advokasi.",
+      "tech": [
+        "Python",
+        "NLTK",
+        "Pandas",
+        "Matplotlib"
+      ],
+      "highlights": [
+        "10.000+ data tweets",
+        "Sentiment scoring",
+        "Visualisasi tren"
+      ],
+      "category": "data-analysis"
+    }
+  ],
+  "designs": [
+    {
+      "title": "Infografis Pengabdian Masyarakat ARKEDUNA",
+      "category": "infographic",
+      "description": "Infografis kegiatan pengabdian masyarakat Asah Kreativitas dan Edukasi Anak Bangsa"
+    },
+    {
+      "title": "Infografis Cryptocurrency",
+      "category": "infographic",
+      "description": "Infografis edukatif tentang investasi cryptocurrency dan blockchain"
+    },
+    {
+      "title": "Infografis Ramadhan - Berbagi Takjil",
+      "category": "infographic",
+      "description": "Infografis kegiatan pengabdian masyarakat berbagi takjil di bulan Ramadhan"
+    },
+    {
+      "title": "Infografis Kelestarian Lingkungan",
+      "category": "infographic",
+      "description": "Infografis tentang pentingnya kelestarian lingkungan dan aksi kolektif"
+    },
+    {
+      "title": "Poster Pengabdian Kepada Masyarakat KJMU UNAS",
+      "category": "poster",
+      "description": "Poster kegiatan pengabdian kepada masyarakat mahasiswa KJMU Universitas Nasional"
+    },
+    {
+      "title": "Sticker Design - Mochi Veby",
+      "category": "sticker-logo",
+      "description": "Desain sticker karakter mochi yang lucu untuk brand makanan"
+    },
+    {
+      "title": "Sticker Design - Bobbaby",
+      "category": "sticker-logo",
+      "description": "Desain sticker karakter boba yang playful untuk brand minuman"
+    },
+    {
+      "title": "Sticker Design - Mentai Yuk!",
+      "category": "sticker-logo",
+      "description": "Desain logo dan sticker untuk brand makanan mentai"
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Pengabdian Masyarakat - Berbagi Makanan Kepada Sesama 2025",
+      "issuer": "Kegiatan Pengabdian Masyarakat",
+      "date": "Desember 2025",
+      "category": "volunteer",
+      "description": "Sertifikat atas partisipasi sebagai Relawan dan Ketua Pelaksana dalam Kegiatan Pengabdian Masyarakat Berbagi Makanan Kepada Sesama di Jalan Sawo Manila pada 14 Desember 2025",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - Pengabdian Masyarakat Berbagi Makanan Kepada Sesama 2025 - Relawan.png"
+      ]
+    },
+    {
+      "title": "First Gathering YRI 2023 - Impress of the Rangers",
+      "issuer": "Youth Ranger Indonesia",
+      "date": "Oktober 2023",
+      "category": "organization",
+      "description": "Sertifikat sebagai Panitia dalam acara First Gathering YRI pada hari Minggu, 22 Oktober 2023 dengan tema 'Impress of the Rangers'",
+      "credentialId": "28/S/YRlJ/X/2023",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - First Gathering YRI 2023 - Panitia.jpg"
+      ]
+    },
+    {
+      "title": "GIE Talk - Perempuan Sebagai Tulang Punggung Generasi Emas",
+      "issuer": "Generasi Muda Indonesia Emas",
+      "date": "2024",
+      "category": "seminar",
+      "description": "Certificate of Recognition sebagai peserta pada kegiatan Webinar GIE Talk dengan tema 'Perempuan Sebagai Tulang Punggung Generasi Emas'",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - GIE Talk Perempuan Sebagai Tulang Punggung Generasi Emas 2024 - Peserta.jpg"
+      ]
+    },
+    {
+      "title": "Kick Andy Goes To Campus 2024",
+      "issuer": "Metro TV",
+      "date": "2024",
+      "category": "seminar",
+      "description": "Sertifikat atas partisipasi sebagai Audiens pada acara Kick Andy Goes To Campus Sesi 1: 'Cahaya Dari Jambi' & Sesi 2: 'Dari Kampung Untuk Negeri'",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - Kick Andy Goes To Campus 2024 - Audiens.jpg"
+      ]
+    },
+    {
+      "title": "Sociology Camp VI National 2024",
+      "issuer": "HIMASOS / Universitas Nasional",
+      "date": "Agustus 2024",
+      "category": "seminar",
+      "description": "Sertifikat atas partisipasi sebagai Peserta dalam kegiatan Sociology Camp VI National dengan tema 'Social Development in Urban Area of Yogyakarta Province' pada 11-15 Agustus 2024",
+      "credentialId": "143/PANPEL/HIMASOS/VIII/2024",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - Sociology Camp VI National 2024 - Peserta.jpg"
+      ]
+    },
+    {
+      "title": "Suara Hati 2025 - Volunteer",
+      "issuer": "Suara Hati",
+      "date": "September 2025",
+      "category": "volunteer",
+      "description": "Sertifikat penghargaan sebagai Volunteer pada tanggal 14 September 2025 di Panti Asrama Domyadhu Pejaten, Jakarta Selatan",
+      "credentialId": "SH VOL 001 09 2025",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - Suara Hati 2025 - Volunteer.jpg"
+      ]
+    },
+    {
+      "title": "IDX Webinar Analisis Fundamental 2023",
+      "issuer": "Indonesia Stock Exchange / Universitas Nasional",
+      "date": "2023",
+      "category": "seminar",
+      "description": "Sertifikat atas partisipasi sebagai Peserta dalam rangka meningkatkan pengetahuan dan wawasan mengenai Analisis Fundamental yang diselenggarakan oleh Bursa Efek Indonesia",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - IDX Webinar Analisis Fundamental 2023 - Peserta.jpg"
+      ]
+    },
+    {
+      "title": "9th IndonesiaNEXT Summit 2025",
+      "issuer": "Telkomsel / IndonesiaNEXT",
+      "date": "2025",
+      "category": "seminar",
+      "description": "Certificate of Appreciation in recognition of participation and presence at the 9th IndonesiaNEXT Summit 2025 - The Digital Talent Accelerator",
+      "credentialId": "003000",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - IndonesiaNEXT Summit 2025 - Participant.jpg"
+      ]
+    },
+    {
+      "title": "Generasi Bebas Plastik Batch 7",
+      "issuer": "Indorelawan / ParagonCorp",
+      "date": "Juni - Agustus 2024",
+      "category": "volunteer",
+      "description": "Sertifikat apresiasi atas kerja keras dan semangat sebagai relawan pada program Generasi Bebas Plastik Batch 7 dari 22 Juni - 15 Agustus 2024",
+      "credentialId": "13.1194/IR/VIII/2024",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - Generasi Bebas Plastik Batch 7 2024 - Relawan.jpg"
+      ]
+    },
+    {
+      "title": "Sertifikat Kompetensi BNSP - Bisnis Daring dan Pemasaran",
+      "issuer": "BNSP",
+      "date": "2021",
+      "category": "course",
+      "description": "Sertifikat Kompetensi KKNI Level II Bisnis Daring dan Pemasaran (Online Business and Marketing) yang mencakup berbagai unit kompetensi dalam bidang bisnis digital dan pemasaran",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - Sertifikat Kompetensi BNSP Bisnis Daring dan Pemasaran - Halaman 1.jpg",
+        "/certificates/Adinda Salsa Aryadi Putri - Sertifikat Kompetensi BNSP Bisnis Daring dan Pemasaran - Daftar Unit Kompetensi.jpg"
+      ]
+    },
+    {
+      "title": "Pelatihan Kewirausahaan Bersama Forvita",
+      "issuer": "Forvita / SMKN 3 Jakarta",
+      "date": "2022",
+      "category": "course",
+      "description": "Sertifikat telah menyelesaikan program Pelatihan Kewirausahaan Bersama Forvita sebagai Siswa/i di SMKN 3 Jakarta",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - Pelatihan Kewirausahaan Forvita 2022 - Siswa.jpg"
+      ]
+    },
+    {
+      "title": "Indonesian Youth Potential Fest 2023",
+      "issuer": "Youth Ranger Indonesia / ParagonCorp",
+      "date": "Oktober 2023",
+      "category": "seminar",
+      "description": "Sertifikat penghargaan atas partisipasi sebagai Peserta dalam Indonesian Youth Potential Fest 2023 yang diselenggarakan pada 1 Oktober 2023",
+      "credentialId": "092/S/lYPF/PES/YPlJ/XXXl/X/2023",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - Indonesian Youth Potential Fest 2023 - Peserta.jpg"
+      ]
+    },
+    {
+      "title": "PKL / Prakerin dan Magang Guru Online Batch I",
+      "issuer": "PPTIK ITB",
+      "date": "2021",
+      "category": "course",
+      "description": "Sertifikat telah mengikuti PKL / Prakerin dan Magang Guru Online Batch I dari PPTIK-ITB Laboratorium Internet of Things dengan hasil Predikat Baik",
+      "credentialId": "990.22947/1T1.B07.3.7/TU/2021",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - PKL Prakerin Magang Guru Online Batch I PPTIK ITB 2021 - Peserta.jpg"
+      ]
+    },
+    {
+      "title": "Program Prakerin Alfamart Non Class",
+      "issuer": "Alfamart Corporate University",
+      "date": "2021",
+      "category": "course",
+      "description": "Sertifikat sebagai peserta yang telah mengikuti Program Prakerin Alfamart Non Class dengan daftar nilai kompetensi lengkap untuk Paket Keahlian Bisnis dan Pemasaran",
+      "credentialId": "097/31/01/2022/PRAKERIN/SAT",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - Prakerin Alfamart Non Class 2021 - Sertifikat.jpg",
+        "/certificates/Adinda Salsa Aryadi Putri - Prakerin Alfamart Non Class 2021 - Daftar Nilai Kompetensi.jpg"
+      ]
+    },
+    {
+      "title": "Talkshow SAUDC UGM - Unheard Voices",
+      "issuer": "UKM Peduli Difabel UGM",
+      "date": "Juni 2023",
+      "category": "seminar",
+      "description": "Sertifikat atas partisipasi sebagai Peserta dalam acara 'Unheard Voices' yang diselenggarakan oleh Departemen SLB Mitra Unit Kegiatan Mahasiswa Peduli Difabel UGM",
+      "credentialId": "228/ST/UKM PD UGM/06/23",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - Talkshow SAUDC UGM Unheard Voices 2023 - Peserta.jpg"
+      ]
+    },
+    {
+      "title": "Dicoding - Belajar Dasar Cloud dan Gen AI di AWS",
+      "issuer": "Dicoding Indonesia",
+      "date": "Juni 2025",
+      "category": "course",
+      "description": "Sertifikat kompetensi atas kelulusan pada kelas Belajar Dasar Cloud dan Gen AI di AWS yang mencakup materi Cloud Computing, AWS Global Infrastructure, Penyimpanan dan Database, Keamanan, Arsitektur, Harga dan Dukungan, serta Generative AI",
+      "credentialId": "53XED29QvpRN",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - Dicoding Belajar Dasar Cloud dan Gen AI di AWS 2025 - Sertifikat Kompetensi.jpg",
+        "/certificates/Adinda Salsa Aryadi Putri - Dicoding Belajar Dasar Cloud dan Gen AI di AWS 2025 - Materi Halaman 2.jpg",
+        "/certificates/Adinda Salsa Aryadi Putri - Dicoding Belajar Dasar Cloud dan Gen AI di AWS 2025 - Materi Halaman 3.jpg"
+      ]
+    },
+    {
+      "title": "MySkill - Microsoft Excel Advanced",
+      "issuer": "MySkill (PT. Linimuda Inspirasi Negeri)",
+      "date": "Juli 2026",
+      "category": "course",
+      "description": "Certificate of Skill Specialization pada learning path Microsoft Excel, Word and PowerPoint. Menyelesaikan 9 course topik Microsoft Excel Advanced dengan durasi 9 jam pada 13 Juli 2026",
+      "credentialId": "MS-20260713-xgBSLntEiZQYDeeD0V0X",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - MySkill Microsoft Excel Advanced 2026 - Skill Specialization.jpg"
+      ]
+    },
+    {
+      "title": "MySkill - Microsoft PowerPoint",
+      "issuer": "MySkill (PT. Linimuda Inspirasi Negeri)",
+      "date": "Juli 2026",
+      "category": "course",
+      "description": "Certificate of Skill Specialization pada learning path Microsoft Excel, Word and PowerPoint. Menyelesaikan 5 course topik Microsoft PowerPoint dengan durasi 5 jam pada 14 Juli 2026",
+      "credentialId": "MS-20260714-7OdU5VmXOB3jYST2n8AD",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - MySkill Microsoft PowerPoint 2026 - Skill Specialization.jpg"
+      ]
+    },
+    {
+      "title": "MySkill - Microsoft Word",
+      "issuer": "MySkill (PT. Linimuda Inspirasi Negeri)",
+      "date": "Juli 2026",
+      "category": "course",
+      "description": "Certificate of Skill Specialization pada learning path Microsoft Excel, Word and PowerPoint. Menyelesaikan 5 course topik Microsoft Word dengan durasi 5 jam pada 14 Juli 2026",
+      "credentialId": "MS-20260714-V2WmH9AUHJ6eL5QSvI82",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - MySkill Microsoft Word 2026 - Skill Specialization.jpg"
+      ]
+    },
+    {
+      "title": "MySkill - Google Analytics",
+      "issuer": "MySkill (PT. Linimuda Inspirasi Negeri)",
+      "date": "Juli 2026",
+      "category": "course",
+      "description": "Certificate of Skill Specialization pada learning path Digital Marketing. Menyelesaikan 7 course topik Google Analytics dengan durasi 7 jam pada 14 Juli 2026",
+      "credentialId": "MS-20260714-MZ7ywVauHc2ngw92NHfu",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - MySkill Google Analytics 2026 - Skill Specialization.jpg"
+      ]
+    },
+    {
+      "title": "MySkill - Microsoft Excel Basic",
+      "issuer": "MySkill (PT. Linimuda Inspirasi Negeri)",
+      "date": "Juli 2026",
+      "category": "course",
+      "description": "Certificate of Skill Specialization pada learning path Microsoft Excel, Word and PowerPoint. Menyelesaikan 8 course topik Microsoft Excel Basic dengan durasi 8 jam pada 18 Juli 2026",
+      "credentialId": "MS-20260718-tccviwXkIkd4BfRfsf0d",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - MySkill Microsoft Excel Basic 2026 - Skill Specialization.jpg"
+      ]
+    },
+    {
+      "title": "MySkill - Human Resource Fundamental",
+      "issuer": "MySkill (PT. Linimuda Inspirasi Negeri)",
+      "date": "Juli 2026",
+      "category": "course",
+      "description": "Certificate of Skill Specialization pada learning path Human Resource Development. Menyelesaikan 14 course topik Human Resource Fundamental dengan durasi 14 jam pada 18 Juli 2026",
+      "credentialId": "MS-20260718-QbVkAKgskz7gXPxM479k",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - MySkill Human Resource Fundamental 2026 - Skill Specialization.jpg"
+      ]
+    },
+    {
+      "title": "MySkill - Basic English",
+      "issuer": "MySkill (PT. Linimuda Inspirasi Negeri)",
+      "date": "Juli 2026",
+      "category": "course",
+      "description": "Certificate of Skill Specialization pada learning path English Test and Scholarship Preparation. Menyelesaikan 22 course topik Basic English dengan durasi 22 jam pada 20 Juli 2026",
+      "credentialId": "MS-20260720-Jeag6DhZm3fcwIGbmRKF",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - MySkill Basic English 2026 - Skill Specialization.jpg"
+      ]
+    },
+    {
+      "title": "MySkill - SQL Introduction for Data Analysis",
+      "issuer": "MySkill (PT. Linimuda Inspirasi Negeri)",
+      "date": "Juli 2026",
+      "category": "course",
+      "description": "MySkill Short Class Data Analysis dengan topik SQL Introduction for Data Analysis. Diselesaikan pada 13 Juli 2026 sebagai bagian dari peningkatan kompetensi di bidang analisis data",
+      "credentialId": "330170/DTA/LM/07/2026",
+      "images": [
+        "/certificates/Adinda Salsa Aryadi Putri - MySkill SQL Introduction for Data Analysis 2026 - Short Class.jpg"
+      ]
+    }
+  ],
+  "skills": {
+    "dataAnalysis": [
+      "Python (Pandas, NumPy)",
+      "SPSS",
+      "Statistical Analysis",
+      "Data Cleaning & Processing"
+    ],
+    "visualization": [
+      "Power BI",
+      "Canva",
+      "Matplotlib & Seaborn",
+      "Excel Advanced"
+    ],
+    "databaseQuery": [
+      "SQL & PostgreSQL",
+      "Google Sheets Advanced",
+      "Google Forms",
+      "NVivo"
+    ],
+    "techTools": [
+      "Google Colab",
+      "Figma",
+      "Microsoft Office (Word, Excel, PPT)",
+      "Web Development Basics"
+    ],
+    "softSkills": [
+      "Research & Analysis",
+      "Report Writing",
+      "Team Collaboration",
+      "Critical Thinking"
+    ]
+  },
+  "contact": {
+    "email": "adindasalsaaryadi@gmail.com",
+    "github": "https://github.com/adndaaryadi",
+    "linkedin": "https://www.linkedin.com/in/adinda-salsa-aryadi-putri-837108241/",
+    "instagram": "https://instagram.com/adndaaryadi",
+    "location": "Jakarta Selatan, Indonesia"
+  },
+  "stats": {
+    "projectsCompleted": 20,
+    "datasetsAnalyzed": 30,
+    "toolsMastered": 15,
+    "certificatesEarned": 24,
+    "yearsLearning": 3
+  }
+}
