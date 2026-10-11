@@ -23,6 +23,7 @@ Target deployment menggunakan Vercel Hobby dan domain custom `portofolio-salsa.t
 - **Aksesibilitas:** dialog memakai focus trap, tombol punya label, Escape menutup dialog, dan warna dicek dengan audit aksesibilitas.
 - **Keamanan:** token, `.env`, clone source lokal, evidence audit, cache, dan dependency runtime tidak diikutkan ke repository publik.
 - **Deployment:** hanya folder `site/` yang menjadi payload Vercel.
+- **Repository:** public di `github.com/el-pablos/portofolio-salsa`; tree publik sudah discan tanpa credential.
 - **Dokumentasi:** README ini adalah dokumentasi utama repository. Screenshot UI disimpan di `docs/screenshots/` supaya gambar di README dapat dibaca langsung dari GitHub.
 
 ## Preview visual tiap halaman atau state
