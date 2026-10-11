@@ -1,0 +1,17 @@
+{
+  "name": "portofolio-salsa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portofolio interaktif Adinda Salsa Aryadi Putri dengan pengalaman map-based yang responsif.",
+  "scripts": {
+    "test": "node tests/test_site.cjs",
+    "check": "npm test && node --check site/app.js",
+    "security": "node tests/security_scan.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0"
+  }
+}
