@@ -4,11 +4,12 @@
 !.env.example
 .vercel/
 
-# Source/audit lokal yang tidak dibutuhkan saat build publik
+# Source/audit lokal dan helper deployment yang tidak dibutuhkan saat build publik
 /evidence/
 /source-salsa/
+/tools/
+/node_modules/
 /.cache/
-/tools/browser/node_modules/
 
 # Log dan hasil sementara
 *.log
