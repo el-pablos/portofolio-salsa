@@ -1,0 +1,42 @@
+name: Quality Gate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: Test, security, and package audit
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [20, 22]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Run behavior and syntax checks
+        run: npm run check
+
+      - name: Run repository security scan
+        run: npm run security
+
+      - name: Audit dependencies
+        run: npm audit --audit-level=high
+
+      - name: Check whitespace errors
+        run: git diff --check
